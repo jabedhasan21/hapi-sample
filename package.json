@@ -1,0 +1,24 @@
+{
+  "name": "hapi-demo",
+  "version": "1.0.0",
+  "description": "This is hapi demo project. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jabedhasan21@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bookshelf": "^0.9.5",
+    "hapi": "^13.4.1",
+    "knex": "^0.11.5",
+    "moment": "^2.13.0",
+    "mysql": "^2.11.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}

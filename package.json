@@ -13,6 +13,7 @@
   "dependencies": {
     "bookshelf": "^0.9.5",
     "hapi": "^13.4.1",
+    "hapi-async-handler": "^1.0.3",
     "hapi-bookshelf-models": "^2.0.0",
     "knex": "^0.11.5",
     "moment": "^2.13.0",

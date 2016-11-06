@@ -1,6 +1,6 @@
 import Hapi from 'hapi';
 
-import userRout from './src/app/routes/user-route.js';
+import userRout from './app/routes/user-route.js';
 
 // Create a server with a host and port
 const server = new Hapi.Server();
@@ -15,7 +15,7 @@ server.route({
     path:'/hello',
     handler: function (request, reply) {
 
-        return reply('hello world');
+        return reply('hello world 555 888');
     }
 });
 
